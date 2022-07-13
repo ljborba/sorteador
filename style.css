@@ -1,14 +1,21 @@
 @charset "UTF-8";
 
+body {
+    max-width: 50%;
+    margin: auto;
+}
+
 .container {
-    width: 30%;
-    height: 30%;
     display: flex;
     background-color: rgba(0, 0, 0, 0.200);
     padding: 2em;
-    border-radius: 5px;
+    border-radius: 0px 0px 10px 10px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: relative;
+}
+
+button {
+    padding: 15px;
 }
