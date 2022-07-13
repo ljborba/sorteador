@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.container {
+    width: 30%;
+    height: 30%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.200);
+    padding: 2em;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
